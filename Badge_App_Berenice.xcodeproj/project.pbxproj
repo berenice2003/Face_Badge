@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A7B6CB0424F6079A005E000D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7B6CB0324F6079A005E000D /* AppDelegate.swift */; };
+		A7B6CB0624F6079A005E000D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7B6CB0524F6079A005E000D /* SceneDelegate.swift */; };
+		A7B6CB0824F6079A005E000D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7B6CB0724F6079A005E000D /* ViewController.swift */; };
+		A7B6CB0B24F6079A005E000D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7B6CB0924F6079A005E000D /* Main.storyboard */; };
+		A7B6CB0D24F6079D005E000D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A7B6CB0C24F6079D005E000D /* Assets.xcassets */; };
+		A7B6CB1024F6079D005E000D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7B6CB0E24F6079D005E000D /* LaunchScreen.storyboard */; };
+		A7B6CB1B24F6079D005E000D /* Badge_App_BereniceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7B6CB1A24F6079D005E000D /* Badge_App_BereniceTests.swift */; };
+		A7B6CB2624F6079D005E000D /* Badge_App_BereniceUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7B6CB2524F6079D005E000D /* Badge_App_BereniceUITests.swift */; };
+		A7B6CB3424F60825005E000D /* IMG_20200621_124625_176.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A7B6CB3324F60825005E000D /* IMG_20200621_124625_176.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A7B6CB1724F6079D005E000D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A7B6CAF824F6079A005E000D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A7B6CAFF24F6079A005E000D;
+			remoteInfo = Badge_App_Berenice;
+		};
+		A7B6CB2224F6079D005E000D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A7B6CAF824F6079A005E000D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A7B6CAFF24F6079A005E000D;
+			remoteInfo = Badge_App_Berenice;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A7B6CB0024F6079A005E000D /* Badge_App_Berenice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Badge_App_Berenice.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A7B6CB0324F6079A005E000D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A7B6CB0524F6079A005E000D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		A7B6CB0724F6079A005E000D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A7B6CB0A24F6079A005E000D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A7B6CB0C24F6079D005E000D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A7B6CB0F24F6079D005E000D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A7B6CB1124F6079D005E000D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A7B6CB1624F6079D005E000D /* Badge_App_BereniceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Badge_App_BereniceTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A7B6CB1A24F6079D005E000D /* Badge_App_BereniceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Badge_App_BereniceTests.swift; sourceTree = "<group>"; };
+		A7B6CB1C24F6079D005E000D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A7B6CB2124F6079D005E000D /* Badge_App_BereniceUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Badge_App_BereniceUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A7B6CB2524F6079D005E000D /* Badge_App_BereniceUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Badge_App_BereniceUITests.swift; sourceTree = "<group>"; };
+		A7B6CB2724F6079D005E000D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A7B6CB3324F60825005E000D /* IMG_20200621_124625_176.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_20200621_124625_176.jpg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A7B6CAFD24F6079A005E000D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7B6CB1324F6079D005E000D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7B6CB1E24F6079D005E000D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A7B6CAF724F6079A005E000D = {
+			isa = PBXGroup;
+			children = (
+				A7B6CB0224F6079A005E000D /* Badge_App_Berenice */,
+				A7B6CB1924F6079D005E000D /* Badge_App_BereniceTests */,
+				A7B6CB2424F6079D005E000D /* Badge_App_BereniceUITests */,
+				A7B6CB0124F6079A005E000D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A7B6CB0124F6079A005E000D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A7B6CB0024F6079A005E000D /* Badge_App_Berenice.app */,
+				A7B6CB1624F6079D005E000D /* Badge_App_BereniceTests.xctest */,
+				A7B6CB2124F6079D005E000D /* Badge_App_BereniceUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A7B6CB0224F6079A005E000D /* Badge_App_Berenice */ = {
+			isa = PBXGroup;
+			children = (
+				A7B6CB0324F6079A005E000D /* AppDelegate.swift */,
+				A7B6CB0524F6079A005E000D /* SceneDelegate.swift */,
+				A7B6CB0724F6079A005E000D /* ViewController.swift */,
+				A7B6CB0924F6079A005E000D /* Main.storyboard */,
+				A7B6CB3324F60825005E000D /* IMG_20200621_124625_176.jpg */,
+				A7B6CB0C24F6079D005E000D /* Assets.xcassets */,
+				A7B6CB0E24F6079D005E000D /* LaunchScreen.storyboard */,
+				A7B6CB1124F6079D005E000D /* Info.plist */,
+			);
+			path = Badge_App_Berenice;
+			sourceTree = "<group>";
+		};
+		A7B6CB1924F6079D005E000D /* Badge_App_BereniceTests */ = {
+			isa = PBXGroup;
+			children = (
+				A7B6CB1A24F6079D005E000D /* Badge_App_BereniceTests.swift */,
+				A7B6CB1C24F6079D005E000D /* Info.plist */,
+			);
+			path = Badge_App_BereniceTests;
+			sourceTree = "<group>";
+		};
+		A7B6CB2424F6079D005E000D /* Badge_App_BereniceUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A7B6CB2524F6079D005E000D /* Badge_App_BereniceUITests.swift */,
+				A7B6CB2724F6079D005E000D /* Info.plist */,
+			);
+			path = Badge_App_BereniceUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A7B6CAFF24F6079A005E000D /* Badge_App_Berenice */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A7B6CB2A24F6079D005E000D /* Build configuration list for PBXNativeTarget "Badge_App_Berenice" */;
+			buildPhases = (
+				A7B6CAFC24F6079A005E000D /* Sources */,
+				A7B6CAFD24F6079A005E000D /* Frameworks */,
+				A7B6CAFE24F6079A005E000D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Badge_App_Berenice;
+			productName = Badge_App_Berenice;
+			productReference = A7B6CB0024F6079A005E000D /* Badge_App_Berenice.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A7B6CB1524F6079D005E000D /* Badge_App_BereniceTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A7B6CB2D24F6079D005E000D /* Build configuration list for PBXNativeTarget "Badge_App_BereniceTests" */;
+			buildPhases = (
+				A7B6CB1224F6079D005E000D /* Sources */,
+				A7B6CB1324F6079D005E000D /* Frameworks */,
+				A7B6CB1424F6079D005E000D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A7B6CB1824F6079D005E000D /* PBXTargetDependency */,
+			);
+			name = Badge_App_BereniceTests;
+			productName = Badge_App_BereniceTests;
+			productReference = A7B6CB1624F6079D005E000D /* Badge_App_BereniceTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A7B6CB2024F6079D005E000D /* Badge_App_BereniceUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A7B6CB3024F6079D005E000D /* Build configuration list for PBXNativeTarget "Badge_App_BereniceUITests" */;
+			buildPhases = (
+				A7B6CB1D24F6079D005E000D /* Sources */,
+				A7B6CB1E24F6079D005E000D /* Frameworks */,
+				A7B6CB1F24F6079D005E000D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A7B6CB2324F6079D005E000D /* PBXTargetDependency */,
+			);
+			name = Badge_App_BereniceUITests;
+			productName = Badge_App_BereniceUITests;
+			productReference = A7B6CB2124F6079D005E000D /* Badge_App_BereniceUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A7B6CAF824F6079A005E000D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Berenice Correa";
+				TargetAttributes = {
+					A7B6CAFF24F6079A005E000D = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					A7B6CB1524F6079D005E000D = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = A7B6CAFF24F6079A005E000D;
+					};
+					A7B6CB2024F6079D005E000D = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = A7B6CAFF24F6079A005E000D;
+					};
+				};
+			};
+			buildConfigurationList = A7B6CAFB24F6079A005E000D /* Build configuration list for PBXProject "Badge_App_Berenice" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A7B6CAF724F6079A005E000D;
+			productRefGroup = A7B6CB0124F6079A005E000D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A7B6CAFF24F6079A005E000D /* Badge_App_Berenice */,
+				A7B6CB1524F6079D005E000D /* Badge_App_BereniceTests */,
+				A7B6CB2024F6079D005E000D /* Badge_App_BereniceUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A7B6CAFE24F6079A005E000D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7B6CB1024F6079D005E000D /* LaunchScreen.storyboard in Resources */,
+				A7B6CB0D24F6079D005E000D /* Assets.xcassets in Resources */,
+				A7B6CB0B24F6079A005E000D /* Main.storyboard in Resources */,
+				A7B6CB3424F60825005E000D /* IMG_20200621_124625_176.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7B6CB1424F6079D005E000D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7B6CB1F24F6079D005E000D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A7B6CAFC24F6079A005E000D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7B6CB0824F6079A005E000D /* ViewController.swift in Sources */,
+				A7B6CB0424F6079A005E000D /* AppDelegate.swift in Sources */,
+				A7B6CB0624F6079A005E000D /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7B6CB1224F6079D005E000D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7B6CB1B24F6079D005E000D /* Badge_App_BereniceTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7B6CB1D24F6079D005E000D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7B6CB2624F6079D005E000D /* Badge_App_BereniceUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A7B6CB1824F6079D005E000D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A7B6CAFF24F6079A005E000D /* Badge_App_Berenice */;
+			targetProxy = A7B6CB1724F6079D005E000D /* PBXContainerItemProxy */;
+		};
+		A7B6CB2324F6079D005E000D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A7B6CAFF24F6079A005E000D /* Badge_App_Berenice */;
+			targetProxy = A7B6CB2224F6079D005E000D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A7B6CB0924F6079A005E000D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A7B6CB0A24F6079A005E000D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A7B6CB0E24F6079D005E000D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A7B6CB0F24F6079D005E000D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A7B6CB2824F6079D005E000D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A7B6CB2924F6079D005E000D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A7B6CB2B24F6079D005E000D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Badge_App_Berenice/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "genesyswork.com.Badge-App-Berenice";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A7B6CB2C24F6079D005E000D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Badge_App_Berenice/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "genesyswork.com.Badge-App-Berenice";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A7B6CB2E24F6079D005E000D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Badge_App_BereniceTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "genesyswork.com.Badge-App-BereniceTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Badge_App_Berenice.app/Badge_App_Berenice";
+			};
+			name = Debug;
+		};
+		A7B6CB2F24F6079D005E000D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Badge_App_BereniceTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "genesyswork.com.Badge-App-BereniceTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Badge_App_Berenice.app/Badge_App_Berenice";
+			};
+			name = Release;
+		};
+		A7B6CB3124F6079D005E000D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Badge_App_BereniceUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "genesyswork.com.Badge-App-BereniceUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Badge_App_Berenice;
+			};
+			name = Debug;
+		};
+		A7B6CB3224F6079D005E000D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Badge_App_BereniceUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "genesyswork.com.Badge-App-BereniceUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Badge_App_Berenice;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A7B6CAFB24F6079A005E000D /* Build configuration list for PBXProject "Badge_App_Berenice" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7B6CB2824F6079D005E000D /* Debug */,
+				A7B6CB2924F6079D005E000D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A7B6CB2A24F6079D005E000D /* Build configuration list for PBXNativeTarget "Badge_App_Berenice" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7B6CB2B24F6079D005E000D /* Debug */,
+				A7B6CB2C24F6079D005E000D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A7B6CB2D24F6079D005E000D /* Build configuration list for PBXNativeTarget "Badge_App_BereniceTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7B6CB2E24F6079D005E000D /* Debug */,
+				A7B6CB2F24F6079D005E000D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A7B6CB3024F6079D005E000D /* Build configuration list for PBXNativeTarget "Badge_App_BereniceUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7B6CB3124F6079D005E000D /* Debug */,
+				A7B6CB3224F6079D005E000D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A7B6CAF824F6079A005E000D /* Project object */;
+}
